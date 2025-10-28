@@ -89,6 +89,10 @@ ul > li::before {
     color: var(--color-font-prepinfo);
 }
 
+ul > li {
+    padding: 0.5rem 0;
+}
+
 .prep-infos > p {
     color: var(--color-font-prepinfo);
     font-weight: 800;
