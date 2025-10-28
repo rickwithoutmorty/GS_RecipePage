@@ -19,6 +19,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    margin: auto;
     min-width: 375px;
     max-width: 750px;
     background: var(--color-background-main);
