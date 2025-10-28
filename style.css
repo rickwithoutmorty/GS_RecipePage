@@ -15,6 +15,19 @@ ol, ul {
     --color-background-card: rgb(255, 255, 255);
 }
 
+/* GLOBAL SETTINGS */
+h1,
+h2 {
+    font-family: "Young Serif", serif;
+}
+
+p,
+span,
+li,
+td {
+    font-family: "Outfit", sans-serif;
+}
+
 @media (min-width: 768px) {
     .recipe-card {
         margin-top: 7rem;
@@ -32,23 +45,19 @@ body {
     background: var(--color-background-main);
 }
 
+/* MAIN CARD STYLING*/
 .recipe-card {
     background: var(--color-background-card);
     padding: 40px;
+    border-radius: 30px;
 }
 
-h1,
-h2 {
-    font-family: "Young Serif", serif;
-}
+/* RECIPE SHOWCASE HEADER */
 
-p,
-span,
-li,
-td {
-    font-family: "Outfit", sans-serif;
+img {
+    width: 100%;
+    border-radius: 20px;
 }
-
 
 /* FOOTER */
 .attribution {
