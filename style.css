@@ -99,6 +99,11 @@ img {
     border-radius: 20px;
 }
 
+/* SECTION INGREDIENTS */
+.section-ingredients h2 {
+    padding: 1rem 0;
+}
+
 /* FOOTER */
 .attribution {
     font-size: 11px;
