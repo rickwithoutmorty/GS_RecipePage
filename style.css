@@ -87,6 +87,8 @@ body {
 ul > li::before {
     content: "•";
     color: var(--color-font-prepinfo);
+    margin-right: 1.8rem;
+    margin-left: 0.2rem;
 }
 
 ul > li {
@@ -106,6 +108,7 @@ img {
 /* SECTION INGREDIENTS */
 section h2 {
     padding: 1.25rem 0;
+    font-weight: 500;
 }
 
 /* SECTION INSTRUCTIONS */
