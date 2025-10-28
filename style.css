@@ -74,6 +74,11 @@ body {
     padding: 2rem
 }
 
+ul > li::before {
+    content: "•";
+    color: var(--color-font-prepinfo);
+}
+
 .prep-infos > p {
     color: var(--color-font-prepinfo);
     font-weight: 800;
