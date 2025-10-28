@@ -108,6 +108,12 @@ section h2 {
     padding: 1.25rem 0;
 }
 
+/* SECTION INSTRUCTIONS */
+ol {
+    list-style: decimal;
+    padding: 0 1.25rem;
+}
+
 /* FOOTER */
 .attribution {
     font-size: 11px;
