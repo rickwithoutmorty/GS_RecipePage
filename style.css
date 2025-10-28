@@ -18,6 +18,7 @@ ol, ul {
     --color-font-headings: rgb(133, 70, 50);
     --color-font-text: rgb(95, 86, 77);
     --color-font-prepinfo: rgb(120, 40, 78);
+    --color-horizontal-line: rgb(227, 221, 215);
 }
 
 /* GLOBAL SETTINGS */
@@ -32,6 +33,15 @@ h1 {
 
 h2 {
     color: var(--color-font-headings);
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid var(--color-horizontal-line);
+    margin: 1rem 0;
+    padding: 0;
 }
 
 p,
