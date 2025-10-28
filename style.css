@@ -117,6 +117,20 @@ ol {
     padding: 0 1.25rem;
 }
 
+ ol > li {
+    color: var(--color-font-prepinfo);
+    line-height: 150%;
+    margin-bottom: 1rem;
+ }
+
+ ol .instruction-emphasize {
+    font-weight: 600;
+ }
+
+ ol p {
+    margin-left: 1.25rem;
+ }
+
 /* FOOTER */
 .attribution {
     font-size: 11px;
