@@ -13,6 +13,9 @@ ol, ul {
 :root {
     --color-background-main: rgb(243, 229, 215);
     --color-background-card: rgb(255, 255, 255);
+    --color-font-title: rgb(49, 46, 44);
+    --color-font-headings: rgb(133, 70, 50);
+    --color-font-text: rgb(95, 86, 77);
 }
 
 /* GLOBAL SETTINGS */
@@ -21,11 +24,20 @@ h2 {
     font-family: "Young Serif", serif;
 }
 
+h1 {
+    color: var(--color-font-title);
+}
+
+h2 {
+    color: var(--color-font-headings);
+}
+
 p,
 span,
 li,
 td {
     font-family: "Outfit", sans-serif;
+    color: var(--color-font-text);
 }
 
 @media (min-width: 768px) {
