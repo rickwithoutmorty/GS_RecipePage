@@ -31,6 +31,18 @@ body {
     padding: 40px;
 }
 
+h1,
+h2 {
+    font-family: "Young Serif", serif;
+}
+
+p,
+span,
+li,
+td {
+    font-family: "Outfit", sans-serif;
+}
+
 
 /* FOOTER */
 .attribution {
@@ -39,4 +51,5 @@ body {
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+    text-decoration: none;
 }
