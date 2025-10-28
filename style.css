@@ -13,9 +13,11 @@ ol, ul {
 :root {
     --color-background-main: rgb(243, 229, 215);
     --color-background-card: rgb(255, 255, 255);
+    --color-background-prepinfo: rgb(255, 247, 251);
     --color-font-title: rgb(49, 46, 44);
     --color-font-headings: rgb(133, 70, 50);
     --color-font-text: rgb(95, 86, 77);
+    --color-font-prepinfo: rgb(120, 40, 78);
 }
 
 /* GLOBAL SETTINGS */
@@ -65,6 +67,17 @@ body {
 }
 
 /* RECIPE SHOWCASE HEADER */
+
+.prep-infos {
+    background: var(--color-background-prepinfo);
+    border-radius: 10px;
+    padding: 2rem
+}
+
+.prep-infos > p {
+    color: var(--color-font-prepinfo);
+    font-weight: 800;
+}
 
 img {
     width: 100%;
