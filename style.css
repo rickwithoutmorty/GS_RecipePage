@@ -78,11 +78,16 @@ body {
 
 /* RECIPE SHOWCASE HEADER */
 
+figure h1 {
+    margin-top: 2rem;
+    margin-bottom: 1rem ;
+}
+
 .prep-infos {
     background: var(--color-background-prepinfo);
     border-radius: 10px;
     padding: 2rem;
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 .prep-infos li span {
@@ -97,7 +102,7 @@ ul > li::before {
 }
 
 ul > li {
-    padding: 0.5rem 0;
+    padding: 0.25rem 0;
 }
 
 .prep-infos > p {
@@ -112,6 +117,7 @@ img {
 
 /* SECTION INGREDIENTS */
 section h2 {
+    font-size: 28px;
     padding: 1.25rem 0;
     font-weight: 500;
 }
@@ -124,7 +130,7 @@ ol {
 
  ol > li {
     color: var(--color-font-prepinfo);
-    line-height: 150%;
+    line-height: 125%;
     margin-bottom: 1rem;
  }
 
