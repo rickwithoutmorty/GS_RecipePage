@@ -81,7 +81,12 @@ body {
 .prep-infos {
     background: var(--color-background-prepinfo);
     border-radius: 10px;
-    padding: 2rem
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.prep-infos li span {
+    font-weight: 600;
 }
 
 ul > li::before {
