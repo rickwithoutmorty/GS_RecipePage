@@ -142,6 +142,33 @@ ol {
     margin-left: 1.25rem;
  }
 
+/* SECTION NUTRITION */
+.section-nutrition table {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.section-nutrition table tbody {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-nutrition tr {
+    border-bottom: 1px solid var(--color-horizontal-line);
+    display: flex;
+    padding: 0 5rem;
+}
+
+.section-nutrition td {
+    min-width: 220px;
+    padding: 0.75rem;
+}
+
+.section-nutrition td:last-child {
+    color: var(--color-font-headings);
+    font-weight: 700;
+}
+
 /* FOOTER */
 .attribution {
     font-size: 11px;
